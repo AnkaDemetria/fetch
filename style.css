@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div{
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    border: solid 2px rgb(174, 28, 52);
+    border-radius: 10px;
+}
+
+h3{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
